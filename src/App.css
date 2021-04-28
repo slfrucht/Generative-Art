@@ -1,32 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 100px;
+  height: 100px;
   pointer-events: none;
+  position:relative;
+  top: 0px;
+  left: -50px;
+
 }
+
+.App-logo-shadow {
+  height: 100px;
+  height: 100px;
+  filter: blur(5px) opacity(.5);
+  pointer-events: none;
+  position:relative;
+  top: 15px;
+  left: 50px;
+}
+.header-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+  .App-logo-shadow {
+    animation: App-logo-spin infinite 20s linear;
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.app-header {
+  background-color: #eeeeee;
+  margin-bottom: -1px;
+
+}
+.nav-container {
+  background-color: #dddddd;
+  height:fit-content;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+}
+.nav-item {
+  padding-left:30px;
+  padding-right:30px;
+  list-style-type: none;
+}
+.nav-icon {
+  padding-right:5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
