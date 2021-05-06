@@ -1,7 +1,9 @@
-import { ANIMAIONS } from "../shared/animations";
+import { SHORT_ANIMAIONS } from "../shared/shortAnimations";
+import { HOME_PAGE_ELEMENTS } from "../shared/homePageElements";
 
 export const initialState = {
-    animations: ANIMAIONS,
+    animations: SHORT_ANIMAIONS,
+    homePageElements: HOME_PAGE_ELEMENTS
 };
 
 export const Reducer = (state = initialState, action) => {

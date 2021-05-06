@@ -5,33 +5,29 @@ import Header from "./HeaderComponent";
 import Home from "./HomeComponent";
 import About from "./AboutComponent";
 import Contact from "./ContactComponent";
+import Footer from "./FooterComponent";
 
 
 const mapStateToProps = state => {
     return {
-        animations: state.animations
+        animations: state.animations,
+        homePageElements: state.homePageElements
     };
 }
 
 class Main extends Component {
 
     render() {
-        const HomePage = () => {
-            return (
-                <div>
-                   <Home />
-                </div>
-            )
-        }
         return (
             <div>
                 <Header />
                 <Switch>
-                    <Route path="/home" component={HomePage} />
+                    <Route path='/home' render={() => <Home homePageElements={this.props.homePageElements} />} />
                     <Route path="/aboutus" component={About} />
                     <Route path="/contactus" component={Contact} />
                     <Redirect to="./home" />
                 </Switch>
+                <Footer />
             </div>
         )
     }
