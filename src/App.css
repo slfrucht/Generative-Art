@@ -33,9 +33,20 @@
 .card-image {
   height: 200px;
   width: 200px;
+  display: flex;
+  align-items: center;
+
 }
 .card-spacer {
   height: 25px;
+}
+.about-image {
+  height: 200px;
+  width:auto;
+  object-fit: contain;
+}
+.about-card {
+  border: none;
 }
 
 .jumbotron {

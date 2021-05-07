@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import Header from "./HeaderComponent";
 import Home from "./HomeComponent";
 import About from "./AboutComponent";
+import ShortAnimations from "./ShortAnimsComponent";
 import Contact from "./ContactComponent";
 import Footer from "./FooterComponent";
 
@@ -23,6 +24,7 @@ class Main extends Component {
                 <Header />
                 <Switch>
                     <Route path='/home' render={() => <Home homePageElements={this.props.homePageElements} />} />
+                    <Route path="/shortanims" component={ShortAnimations} />
                     <Route path="/aboutus" component={About} />
                     <Route path="/contactus" component={Contact} />
                     <Redirect to="./home" />

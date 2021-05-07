@@ -5,7 +5,7 @@ import CardImgOverlay from "reactstrap/lib/CardImgOverlay";
 function RenderCard({item}) {
     return (
         <div className="container">
-        <Card className="flex-sm-row">
+        <Card className="flex-md-row align-items-center">
             <CardImg className="card-image" src={item.image} alt={item.name} />
             <CardBody>
                 <CardTitle tag="h4">{item.name}</CardTitle>
