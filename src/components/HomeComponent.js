@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {Card, CardImg, CardText, CardBody, CardTitle} from "reactstrap";
 import CardImgOverlay from "reactstrap/lib/CardImgOverlay";
 
@@ -6,10 +7,12 @@ function RenderCard({item}) {
     return (
         <div className="container">
         <Card className="flex-md-row align-items-center">
-            <CardImg className="card-image" src={item.image} alt={item.name} />
+            <Link to={item.link}>
+                <CardImg className="card-image" src={item.image} alt={item.name} />
+            </Link>
             <CardBody>
                 <CardTitle tag="h4">{item.name}</CardTitle>
-                <CardText>{item.description}</CardText>
+                <CardText>{item.description} <a href={item.link}>more...</a></CardText>
             </CardBody>
         </Card>
         </div>

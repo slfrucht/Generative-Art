@@ -2,7 +2,7 @@ import { SHORT_ANIMAIONS } from "../shared/shortAnimations";
 import { HOME_PAGE_ELEMENTS } from "../shared/homePageElements";
 
 export const initialState = {
-    animations: SHORT_ANIMAIONS,
+    shortAnimations: SHORT_ANIMAIONS,
     homePageElements: HOME_PAGE_ELEMENTS
 };
 

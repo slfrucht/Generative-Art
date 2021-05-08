@@ -11,7 +11,7 @@ import Footer from "./FooterComponent";
 
 const mapStateToProps = state => {
     return {
-        animations: state.animations,
+        shortAnimations: state.shortAnimations,
         homePageElements: state.homePageElements
     };
 }
@@ -24,7 +24,7 @@ class Main extends Component {
                 <Header />
                 <Switch>
                     <Route path='/home' render={() => <Home homePageElements={this.props.homePageElements} />} />
-                    <Route path="/shortanims" component={ShortAnimations} />
+                    <Route path='/shortanims' render={() => <ShortAnimations shortAnimations={this.props.shortAnimations} />} />
                     <Route path="/aboutus" component={About} />
                     <Route path="/contactus" component={Contact} />
                     <Redirect to="./home" />

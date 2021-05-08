@@ -49,6 +49,20 @@
   border: none;
 }
 
+.anim-card {
+  width:202px;
+  margin: 1rem;
+}
+.anim-card-body {
+  padding: .5rem;
+}
+.anim-modal {
+  width: 600px;
+  height: 600px;
+}
+
+
+
 .jumbotron {
   margin: 0;
   padding: 30px;
