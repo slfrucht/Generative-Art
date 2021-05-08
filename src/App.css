@@ -60,6 +60,17 @@
   width: 600px;
   height: 600px;
 }
+.info-link {
+	padding: 15px 20px;
+  text-align: center;
+}
+.contact-card {
+  margin: 30px 50px;
+  align-items: center;
+  display: flex;
+
+
+}
 
 
 
