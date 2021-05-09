@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 function Contact() {
     return (
+        <div className="contact-body">
+
         <div className="row contact-card">
             <div className="col-12">
             <Card bg="Light" border="dark">
@@ -36,6 +38,8 @@ function Contact() {
 
             </div>
         </div>
+        </div>
+
 
     )
 }

@@ -71,6 +71,11 @@
 
 
 }
+.contact-body {
+  background-image: url(./confetti_bkg_green.jpg);
+  background-repeat: repeat;
+  overflow: auto;
+}
 
 
 
