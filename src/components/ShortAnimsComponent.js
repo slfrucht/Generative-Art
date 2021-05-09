@@ -1,5 +1,5 @@
-import React, { Component, useState } from 'react';
-import { Modal, ModalBody, ModalHeader, Card, CardBody, CardImg, CardTitle } from 'reactstrap';
+import React, { Component } from 'react';
+import { Modal, ModalBody, Card, CardBody, CardImg, CardTitle } from 'reactstrap';
 import ReactPlayer from 'react-player';
 
 

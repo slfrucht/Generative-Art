@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {Card, CardImg, CardText, CardBody, CardTitle} from "reactstrap";
-import CardImgOverlay from "reactstrap/lib/CardImgOverlay";
 
 function RenderCard({item}) {
     return (
