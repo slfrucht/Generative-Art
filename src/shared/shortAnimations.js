@@ -2,71 +2,71 @@ export const SHORT_ANIMAIONS = [
 {
     id: 0,
     name: "Waves",
-    movie: "/assets/short_anims/Waves_s2.mp4",
-    thumbnail: "/assets/images/waves_thmb.png",
+    movie: "./assets/short_anims/Waves_s2.mp4",
+    thumbnail: "./assets/images/waves_thmb.png",
     description: "Waves animation"
 },
 {
     id: 1,
     name: "Water",
-    movie: "/assets/short_anims/Water_s2.mp4",
-    thumbnail: "/assets/images/water_thmb.png",
+    movie: "./assets/short_anims/Water_s2.mp4",
+    thumbnail: "./assets/images/water_thmb.png",
     description: "Water animation"
 },
 {
     id: 2,
     name: "Black Rectangles",
-    movie: "/assets/short_anims/Black_rects_s2.mp4",
-    thumbnail: "/assets/images/black_rects_thmb.png",
+    movie: "./assets/short_anims/Black_rects_s2.mp4",
+    thumbnail: "./assets/images/black_rects_thmb.png",
     description: "Black Rectangles animation"
 },
 {
     id: 3,
     name: "Squares",
-    movie: "/assets/short_anims/Squares_s2.mp4",
-    thumbnail: "/assets/images/squares_thmb.png",
+    movie: "./assets/short_anims/Squares_s2.mp4",
+    thumbnail: "./assets/images/squares_thmb.png",
     description: "Squares animation"
 },
 {
     id: 4,
     name: "Spline Grid",
-    movie: "/assets/short_anims/Spline_grid_s2.mp4",
-    thumbnail: "/assets/images/spline_grid_thmb.png",
+    movie: "./assets/short_anims/Spline_grid_s2.mp4",
+    thumbnail: "./assets/images/spline_grid_thmb.png",
     description: "Spline Grid animation"
 },
 {
     id: 5,
     name: "Spirit Body",
-    movie: "/assets/short_anims/Spirit_s2.mp4",
-    thumbnail: "/assets/images/spirit_thmb.png",
+    movie: "./assets/short_anims/Spirit_s2.mp4",
+    thumbnail: "./assets/images/spirit_thmb.png",
     description: "Spirit animation"
 },
 {
     id: 6,
     name: "Rose",
-    movie: "/assets/short_anims/Rose_s2.mp4",
-    thumbnail: "/assets/images/rose_thmb.png",
+    movie: "./assets/short_anims/Rose_s2.mp4",
+    thumbnail: "./assets/images/rose_thmb.png",
     description: "Rose animation"
 },
 {
     id: 7,
     name: "Black Mandala",
-    movie: "/assets/short_anims/Black_mandala_s2.mp4",
-    thumbnail: "/assets/images/black_mandala_thmb.png",
+    movie: "./assets/short_anims/Black_mandala_s2.mp4",
+    thumbnail: "./assets/images/black_mandala_thmb.png",
     description: "Black Mandala animation"
 },
 {
     id: 8,
     name: "Color Rectangles",
-    movie: "/assets/short_anims/Col_rects_s2.mp4",
-    thumbnail: "/assets/images/col_rects_thmb.png",
+    movie: "./assets/short_anims/Col_rects_s2.mp4",
+    thumbnail: "./assets/images/col_rects_thmb.png",
     description: "Color Rectangles animation"
 },
 {
     id: 9,
     name: "Ribbon",
-    movie: "/assets/short_anims/Ribbon_s2.mp4",
-    thumbnail: "/assets/images/ribbon_thmb.png",
+    movie: "./assets/short_anims/Ribbon_s2.mp4",
+    thumbnail: "./assets/images/ribbon_thmb.png",
     description: "Ribbon animation"
 },
 {
